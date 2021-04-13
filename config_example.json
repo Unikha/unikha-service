@@ -1,0 +1,16 @@
+{
+  "port": 5000,
+  "databaseURL": "mongoDB uri",
+  "logs": {
+    "level": "silly"
+  },
+  "cors_origin": {
+    "origin": "*",
+    "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+    "preflightContinue": false,
+    "optionsSuccessStatus": 204
+  },
+  "api": {
+    "prefix": "/api"
+  }
+}
